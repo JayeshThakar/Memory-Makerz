@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="signup page.css">
+	<script src="signup page.js"></script>
+	<title>
+		signup page
+	</title>
+</head>
+<body>
+	<div class="signup">
+		<div class="img"></div>
+		<ul class="list">
+			<li>
+				<h2>User Signup</h2>
+			</li>
+			<li>
+				<input type="text" name="fname" placeholder="First Name" id="fname" required>
+			</li>
+			<li>
+				<input type="text" name="lname" placeholder="Surname" required id="lname">
+			</li>
+			<li>
+				<input type="text" name="usernamea" placeholder="Email-ID" required id="usernamea">
+			</li>
+			<li>
+				<input type="password" name="passworda" placeholder="Password" required id="passworda">
+			</li>
+			<li>
+				<input type="password" name="apassworda" placeholder="re-enter Password" required id="apassworda">
+			</li>
+			<li>
+				<input type="text" name="Mobile number" placeholder="Mobile number" required id="number" maxlength="10">
+			</li>
+			<li>
+				<input type="date" name="Date Of Birth" placeholder="Date Of Birth" required id="DOB">
+			</li>
+			<li>
+				<select id="questiona">
+					<option>Security Question</option>
+					<option id="mom">What is your mother's maiden name?</option>
+					<option id="pet">What is the name of your first pet?</option>
+					<option id="car">What was your first car?</option>
+					<option id="school">What elementary school did you attend?</option>
+				</select>
+				<li>
+					<input type="security answer" name="security answer" placeholder="your answer" required id="answera">
+				</li>
+			</li>
+			<label>  
+				<input type="radio" id="gender" name="gender" value="male"/> Male    
+			</label>
+			<label>  
+			<input type="radio" id="gender" name="gender" value="female"/> Female 
+			</label>
+			<label>  
+				<input type="radio" id="gender" name="gender" value="male"/ checked> Other    
+			</label>
+			<li>
+				<button type="submit" onclick="create()">
+					submit
+				</button>
+			</li>
+		</ul>
+		
+
+	</div>
+	</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="forgotten pass.css">
+		<script src="forgotten pass.js"></script>
+		<title>
+			Forgotten Password
+		</title>
+	</head>
+	<body>
+		<div class="Forgotten">
+			<div class="img"></div>
+			<ul class="list">
+				<li>
+					<h2> Forgotten Password</h2>
+				</li>
+				<li>
+					<input type="text" name="Username" placeholder="Email-ID/Mobile Number" required id="ausername">
+				</li>
+				<li>
+					<input type="date" name="Date Of Birth" placeholder="Date Of Birth" required id="DOBa">
+				</li>
+				<li>
+					<select id="aquestiona">
+						<option>Security Question</option>
+						<option id="mom">What is your mother's maiden name?</option>
+						<option id="pet">What is the name of your first pet?</option>
+						<option id="car">What was your first car?</option>
+						<option id="school">What elementary school did you attend?</option>
+					</select>
+				<li>
+					<input type="security answer" name="security answer" placeholder="your answer" required id="aanswera">
+				</li>
+				</li>
+				<li>
+					<button onclick="forgot()">
+						submit
+					</button>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>
